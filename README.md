@@ -1,168 +1,94 @@
-# GameProjectV2
-This is a personal project where I aim to create a text-based RPG in the terminal.
+# Project Roadmap
 
 ## Table of Contents
-1. [Installation][#installation]
-2. [Guide][#guide]
-3. [Roadmap][#roadmap]
-4. [Phases][#phases]
+1. [Vision](#vision)
+2. [Phase 1: Core Game Functionality](#phase-1-core-game-functionality)
+3. [Phase 2: Enhanced Gameplay Mechanics](#phase-2-enhanced-gameplay-mechanics)
+4. [Phase 3: Persistent World and Advanced Features](#phase-3-persistent-world-and-advanced-features)
+5. [Phase 4: Multiplayer and Community Features (Optional)](#phase-4-multiplayer-and-community-features-optional)
 
-## Installation
+---
 
-## Guide
+## Vision
+The goal is to create an immersive and interactive text-based game with modular design and extendable features. The project will evolve from a single-player core gameplay experience into an advanced system with persistent worlds and optional multiplayer support.
 
-## Roadmap
-
-# Project Milestones
+---
 
 ## Phase 1: Core Game Functionality
+**Timeline:** 1-2 weeks  
+**Goal:** Establish the foundational architecture and implement essential game mechanics.
 
-### Overview
-Establish the foundational components of the game, focusing on core architecture, character management, and basic gameplay loop.
-
----
-
-### Milestones
-
-#### Core Architecture
-- [x] Implement `StateManager` for managing game states.
-- [x] Define the `State` base class and derive specific states:
-  - `MainMenuState`
-  - `CharacterCreationState`
-  - `ExitState`
-- [x] Develop a robust and flexible `Game` loop to handle state transitions and user input.
-
-#### Character Management
-- [x] Implement `Character` and `Stats` classes for encapsulating character attributes.
-- [x] Create `CharacterManager` for:
-  - Creating a character.
-  - Saving and loading character data to/from JSON files.
-  - Listing and selecting characters.
-
-#### State Functionality
-- [x] Implement functionality for each state:
-  - `MainMenuState`: Options for creating, loading, and exiting.
-  - `CharacterCreationState`: Prompt user for input and validate.
-  - `ExitState`: Terminate the game loop.
-
-#### User Interaction
-- [x] Input handling with validation.
-- [x] Display menus and prompts dynamically based on game state.
-
-#### Testing
-- [ ] Unit tests for `StateManager`, `CharacterManager`, and `Game`.
-- [ ] Integration tests for seamless interaction between components.
-
----
-
-### Deliverables
-- Functional game with character creation and management.
-- Fully tested core codebase.
+- Design and implement the **StateManager** for managing game states.
+- Create foundational states:
+  - `MainMenuState`: Navigate between options.
+  - `CharacterCreationState`: Create and save new characters.
+  - `ExitState`: Handle game termination.
+- Build the **Game** loop for seamless transitions and input handling.
+- Implement the **Character** and **Stats** classes for encapsulating character data.
+- Develop the **CharacterManager** for:
+  - Creating characters.
+  - Saving/loading characters from JSON.
+  - Listing available characters.
+- Ensure functionality through:
+  - Unit tests for all components.
+  - Integration tests for core interactions.
 
 ---
 
 ## Phase 2: Enhanced Gameplay Mechanics
+**Timeline:** 3-4 weeks  
+**Goal:** Add gameplay depth through combat, leveling, and inventory systems.
 
-### Overview
-Expand gameplay to include more dynamic interactions, enhanced character attributes, and an inventory system.
-
----
-
-### Milestones
-
-#### Character Enhancements
-- [ ] Add leveling system for characters.
-- [ ] Introduce experience points and level-based stat improvements.
-- [ ] Expand character stats (e.g., agility, intelligence).
-
-#### Inventory System
-- [ ] Implement `Inventory` class to manage items.
-- [ ] Add basic item attributes (e.g., name, type, effects).
-- [ ] Create `ItemManager` for adding, removing, and modifying items.
-
-#### Combat System
-- [ ] Introduce `CombatState` for engaging enemies.
-- [ ] Design turn-based combat mechanics with attack, defend, and item use options.
-- [ ] Create basic enemy AI.
-
-#### Enhanced User Interaction
-- [ ] Improve menu navigation.
-- [ ] Add colorful output and formatting for better readability.
-
-#### Testing
-- [ ] Unit tests for inventory, combat, and leveling systems.
-- [ ] Integration tests for seamless transitions between combat and other states.
-
----
-
-### Deliverables
-- Expanded gameplay with combat and inventory management.
-- Fully functional and interactive game loop.
+- Introduce character progression with:
+  - A leveling system.
+  - Experience points and stat upgrades.
+- Implement an **Inventory** system:
+  - Manage items with attributes like type and effects.
+  - Add an `ItemManager` for item-related operations.
+- Build a basic turn-based **Combat System**:
+  - Create a `CombatState` for player-enemy interactions.
+  - Include options for attacking, defending, and item use.
+  - Implement basic enemy AI.
+- Improve user interface:
+  - Enhance menu navigation.
+  - Format output for better readability.
+- Expand test coverage for new features:
+  - Combat and inventory unit tests.
+  - End-to-end tests for combat scenarios.
 
 ---
 
 ## Phase 3: Persistent World and Advanced Features
+**Timeline:** 4-6 weeks  
+**Goal:** Develop a persistent world with exploration mechanics and advanced combat.
 
-### Overview
-Introduce persistence, world-building, and advanced features to create a more immersive experience.
-
----
-
-### Milestones
-
-#### Persistent World
-- [ ] Implement `WorldManager` for managing dungeons and maps.
-- [ ] Save and load world progress.
-
-#### Exploration Mechanics
-- [ ] Add `ExplorationState` for dungeon crawling.
-- [ ] Generate procedural or predefined dungeons.
-
-#### Advanced Combat and Enemy AI
-- [ ] Enhance combat with skills and special moves.
-- [ ] Introduce complex enemy behaviors and boss fights.
-
-#### Polishing and Improvements
-- [ ] Refactor and optimize the codebase.
-- [ ] Add sound and animations (if applicable).
-- [ ] Improve error handling and edge case management.
-
-#### Testing
-- [ ] Comprehensive unit and integration testing for world management and exploration.
-
----
-
-### Deliverables
-- A persistent world where players can explore, combat, and save progress.
-- Polished, fully interactive, and immersive gameplay experience.
+- Introduce a **WorldManager** for managing a persistent game world:
+  - Save and load game progress.
+  - Procedural or predefined dungeon generation.
+- Add an **ExplorationState**:
+  - Dungeon crawling with enemy encounters.
+  - Interactions with objects or loot.
+- Enhance combat:
+  - Introduce skills, magic, or special moves.
+  - Create advanced enemy behaviors (e.g., boss mechanics).
+- Refactor the codebase for performance and maintainability.
+- Improve immersion with:
+  - Colorful output or visual enhancements.
+  - Sound or simple animations (optional).
+- Ensure robustness with:
+  - Comprehensive unit and integration testing.
 
 ---
 
 ## Phase 4: Multiplayer and Community Features (Optional)
+**Timeline:** 6+ weeks  
+**Goal:** Expand to multiplayer and community-driven content for long-term engagement.
 
-### Overview
-Add multiplayer features and community-driven content for long-term engagement.
-
----
-
-### Milestones
-
-#### Multiplayer Features
-- [ ] Add support for local or online multiplayer.
-- [ ] Design cooperative or competitive gameplay modes.
-
-#### Community Content
-- [ ] Enable modding or custom character creation.
-- [ ] Allow players to share dungeons or challenges.
-
-#### Testing and Deployment
-- [ ] Stress test multiplayer functionality.
-- [ ] Ensure compatibility across different environments.
-
----
-
-### Deliverables
-- A multiplayer-capable game with community-driven content.
-- Scalable and robust deployment-ready system.
-
-
+- Design **multiplayer gameplay**:
+  - Add support for local or online multiplayer.
+  - Create cooperative or competitive modes.
+- Enable **community content**:
+  - Allow modding or custom character creation.
+  - Share custom dungeons or challenges.
+- Perform stress testing and ensure scalability for deployment.
+- Deploy a polished, feature-complete game.
