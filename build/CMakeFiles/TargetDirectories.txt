@@ -1,0 +1,5 @@
+/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles/Game.dir
+/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles/GameTests.dir
+/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles/test.dir
+/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles/edit_cache.dir
+/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles/rebuild_cache.dir

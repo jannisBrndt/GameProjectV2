@@ -1,0 +1,120 @@
+Start testing: Nov 21 16:51 CET
+----------------------------------------------------------
+1/1 Testing: AllTests
+1/1 Test: AllTests
+Command: "/Users/jannis/Desktop/GameProjectV2/build/GameTests"
+Directory: /Users/jannis/Desktop/GameProjectV2/build
+"AllTests" start time: Nov 21 16:51 CET
+Output:
+----------------------------------------------------------
+Running main() from /tmp/googletest-20240731-4829-u2xmsk/googletest-1.15.2/googletest/src/gtest_main.cc
+[==========] Running 20 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from CharacterCreationStateTest
+[ RUN      ] CharacterCreationStateTest.RenderOutput
+[       OK ] CharacterCreationStateTest.RenderOutput (0 ms)
+[ RUN      ] CharacterCreationStateTest.HandleValidInput
+[CharacterCreationState] Unexpected numeric input.
+/Users/jannis/Desktop/GameProjectV2/tests/CharacterCreationStateTest.cpp:34: Failure
+Expected: (character) != (nullptr), actual: (nullptr) vs (nullptr)
+
+[  FAILED  ] CharacterCreationStateTest.HandleValidInput (0 ms)
+[ RUN      ] CharacterCreationStateTest.HandleInvalidinput
+[CharacterCreationState] Unexpected numeric input.
+[       OK ] CharacterCreationStateTest.HandleInvalidinput (0 ms)
+[----------] 3 tests from CharacterCreationStateTest (1 ms total)
+
+[----------] 3 tests from CharacterManagerTest
+[ RUN      ] CharacterManagerTest.CreateCharacter
+[       OK ] CharacterManagerTest.CreateCharacter (0 ms)
+[ RUN      ] CharacterManagerTest.SaveCharacterToFile
+[       OK ] CharacterManagerTest.SaveCharacterToFile (0 ms)
+[ RUN      ] CharacterManagerTest.LoadCharacterFromFile
+[       OK ] CharacterManagerTest.LoadCharacterFromFile (0 ms)
+[----------] 3 tests from CharacterManagerTest (1 ms total)
+
+[----------] 1 test from CharacterTest
+[ RUN      ] CharacterTest.CharacterInitialization
+[       OK ] CharacterTest.CharacterInitialization (0 ms)
+[----------] 1 test from CharacterTest (0 ms total)
+
+[----------] 3 tests from ExitStateTest
+[ RUN      ] ExitStateTest.RenderOutput
+[       OK ] ExitStateTest.RenderOutput (0 ms)
+[ RUN      ] ExitStateTest.IsExit
+[ExitMenu] isExit() is being called returning true.
+[       OK ] ExitStateTest.IsExit (0 ms)
+[ RUN      ] ExitStateTest.NoNewState
+[ExitMenu] getNextState() is being called returning nullptr.
+[       OK ] ExitStateTest.NoNewState (0 ms)
+[----------] 3 tests from ExitStateTest (0 ms total)
+
+[----------] 2 tests from GameTest
+[ RUN      ] GameTest.ParseValidInput
+[State Manager] No current state to exit.
+[State Manager] Transitioned to new state: 13MainMenuState
+[Game] Raw input received: 1
+[Game] Input parsed as int: 1
+[       OK ] GameTest.ParseValidInput (0 ms)
+[ RUN      ] GameTest.ParseInvalidInput
+[State Manager] No current state to exit.
+[State Manager] Transitioned to new state: 13MainMenuState
+[Game] Raw input received: test
+[Game] Input parsed as string: test
+[       OK ] GameTest.ParseInvalidInput (0 ms)
+[----------] 2 tests from GameTest (0 ms total)
+
+[----------] 3 tests from MainMenuStateTest
+[ RUN      ] MainMenuStateTest.RenderOutput
+[       OK ] MainMenuStateTest.RenderOutput (0 ms)
+[ RUN      ] MainMenuStateTest.HandleValidInput
+Exit state detected.
+[MainMenuState] Returning next state...
+[       OK ] MainMenuStateTest.HandleValidInput (0 ms)
+[ RUN      ] MainMenuStateTest.NoTransitionOnStartup
+[MainMenuState] Returning next state...
+[       OK ] MainMenuStateTest.NoTransitionOnStartup (0 ms)
+[----------] 3 tests from MainMenuStateTest (0 ms total)
+
+[----------] 1 test from MainMenuTestState
+[ RUN      ] MainMenuTestState.HandleInvalidInput
+[MainMenuState] Returning next state...
+[       OK ] MainMenuTestState.HandleInvalidInput (0 ms)
+[----------] 1 test from MainMenuTestState (0 ms total)
+
+[----------] 3 tests from StateManagerTest
+[ RUN      ] StateManagerTest.InitialStateIsNull
+[       OK ] StateManagerTest.InitialStateIsNull (0 ms)
+[ RUN      ] StateManagerTest.TransitionToMainMenu
+[State Manager] No current state to exit.
+[State Manager] Transitioned to new state: 13MainMenuState
+[       OK ] StateManagerTest.TransitionToMainMenu (0 ms)
+[ RUN      ] StateManagerTest.TransitionToNullptr
+[State Manager] No current state to exit.
+[State Manager] Transitioned to new state: 13MainMenuState
+[State Manager] Exiting current state: 13MainMenuState
+[State Manager] Error: Transitioned to a null state!
+[       OK ] StateManagerTest.TransitionToNullptr (0 ms)
+[----------] 3 tests from StateManagerTest (0 ms total)
+
+[----------] 1 test from StatsTest
+[ RUN      ] StatsTest.StatsInitialization
+[       OK ] StatsTest.StatsInitialization (0 ms)
+[----------] 1 test from StatsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 9 test suites ran. (4 ms total)
+[  PASSED  ] 19 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CharacterCreationStateTest.HandleValidInput
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Failed.
+"AllTests" end time: Nov 21 16:51 CET
+"AllTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 21 16:51 CET
