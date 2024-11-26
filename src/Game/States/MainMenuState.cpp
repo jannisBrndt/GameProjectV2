@@ -1,6 +1,7 @@
 #include "../../../include/Game/States/MainMenuState.h"
 #include "../../../include/Game/States/ExitState.h"
 #include "../../../include/Game/States/CharacterCreationState.h"
+#include "../../../include/Game/States/CharacterLoadingState.h"
 #include <ios>
 #include <iostream>
 #include <limits>
@@ -17,6 +18,12 @@ void MainMenuState::render() {
 }
 
 void MainMenuState::handleInput(InputType input) {
+	if (std::holds_alternative<std::string>(input) && std::get<std::string>(input).empty()) {
+		std::cerr << "[MainMenuState] Empty input detected. Prompting again.\n";
+		return;
+	}
+
+
 	if (std::holds_alternative<int>(input)) {
 		int choice = std::get<int>(input);
 
@@ -26,41 +33,8 @@ void MainMenuState::handleInput(InputType input) {
 				nextState = std::make_unique<CharacterCreationState>(characterManager);
 				break;
 			case 2:
-				std::cout << "[MainMenuState] Loading character...\n";
-				{
-					auto availableCharacters = characterManager->listAvailableCharacters();
-					if(availableCharacters.empty()) {
-						std::cout << "No characters available to load.\n";
-						break;
-					}
-
-					std::cout << "\nAvailable Characters:\n";
-					for (size_t i = 0; i <availableCharacters.size(); ++i) {
-						std::cout << i + 1 << ". " << availableCharacters[i] << "\n";
-					}
-
-					std::cout << "Select a character to load (enter a number): ";
-					int selectedIndex;
-					std::cin >> selectedIndex;
-
-					if (std::cin.fail() || selectedIndex < 1 || selectedIndex > static_cast<int>(availableCharacters.size())) {
-						std::cerr << "Invalid selection.\n";
-						std::cin.clear();
-						std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-					} else {
-						try {
-							auto character = characterManager->loadCharacterFromFile(availableCharacters[selectedIndex - 1]);
-							std::cout << "Character loaded successfully:\n";
-							std::cout << "Name: " << character->getName() << "\n";
-							std::cout << "Race: " << character->getRace() << "\n";
-							std::cout << "Health: " << character->getStats().getMaxHealth() << "\n";
-							std::cout << "Attack: " << character->getStats().getAttackDamage() << "\n";
-							std::cout << "Armor: " << character->getStats().getArmor() << "\n";
-						} catch (const std::exception& e) {
-							std::cerr << "Failed to load character: " << e.what() << "\n";
-						}
-					}
-				}
+				std::cout <<"[MainMenuState] Transitioning to Character Loading State...\n";
+				nextState = std::make_unique<CharacterLoadingState>(characterManager);
 				break;
 			case 3:
 				std::cout << "Exit state detected.\n";

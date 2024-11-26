@@ -1,9 +1,11 @@
 #pragma once
 
 #include "../Entities/Character.h"
+#include "../States/State.h"
 #include <memory>
 #include <unordered_map>
 #include <vector>
+#include <map>
 
 
 /*
@@ -98,4 +100,7 @@ class CharacterManager {
 		 * @return A vector containing the names of all available characters.
 		 */
 		std::vector<std::string> listAvailableCharacters() const;
+
+
+		std::vector<std::pair<std::string, State::InputType>> getCharacterStats(const std::string& characterName) const;
 };

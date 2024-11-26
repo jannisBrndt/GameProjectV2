@@ -104,3 +104,19 @@ std::vector<std::string> CharacterManager::listAvailableCharacters() const {
 
 	return characters;
 }
+
+std::vector<std::pair<std::string, State::InputType>> CharacterManager::getCharacterStats(const std::string& characterName) const {
+	auto it = characters.find(characterName);
+	if (it != characters.end()) {
+		return {
+			{"Name", it->second->getName()},
+			{"Race", it->second->getRace()},
+			{"Level", it->second->getLevel()},
+			{"Exp", it->second->getExperience()},
+			{"Health", it->second->getStats().getMaxHealth()},
+			{"Attack", it->second->getStats().getAttackDamage()},
+			{"Armor", it->second->getStats().getArmor()}
+		};
+	}
+	return {};
+}

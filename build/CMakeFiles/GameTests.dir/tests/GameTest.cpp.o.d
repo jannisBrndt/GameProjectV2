@@ -762,6 +762,7 @@ CMakeFiles/GameTests.dir/tests/GameTest.cpp.o: \
   /Users/jannis/Desktop/GameProjectV2/include/Game/States/../Managers/CharacterManager.h \
   /Users/jannis/Desktop/GameProjectV2/include/Game/Managers/../Entities/Character.h \
   /Users/jannis/Desktop/GameProjectV2/include/Game/Entities/../Components/Stats.h \
+  /Users/jannis/Desktop/GameProjectV2/include/Game/Managers/../States/State.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__hash_table \
@@ -856,16 +857,7 @@ CMakeFiles/GameTests.dir/tests/GameTest.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/cstdarg \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/jannis/Desktop/GameProjectV2/tests/../include/Game/Core/Game.h \
-  /Users/jannis/Desktop/GameProjectV2/include/Game/Core/../../../include/Game/Managers/StateManager.h \
-  /Users/jannis/Desktop/GameProjectV2/include/Game/Managers/../States/State.h \
-  /Users/jannis/Desktop/GameProjectV2/include/Game/Core/../../../include/Game/Managers/CharacterManager.h \
-  /Users/jannis/Desktop/GameProjectV2/include/Game/Core/../../../include/Game/States/State.h \
-  /Users/jannis/Desktop/GameProjectV2/tests/../include/Game/Managers/StateManager.h \
-  /usr/local/include/gtest/gtest.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -887,6 +879,15 @@ CMakeFiles/GameTests.dir/tests/GameTest.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Users/jannis/Desktop/GameProjectV2/tests/../include/Game/Core/Game.h \
+  /Users/jannis/Desktop/GameProjectV2/include/Game/Core/../../../include/Game/Managers/StateManager.h \
+  /Users/jannis/Desktop/GameProjectV2/include/Game/Core/../../../include/Game/Managers/CharacterManager.h \
+  /Users/jannis/Desktop/GameProjectV2/include/Game/Core/../../../include/Game/States/State.h \
+  /Users/jannis/Desktop/GameProjectV2/tests/../include/Game/Managers/StateManager.h \
+  /usr/local/include/gtest/gtest.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/istream \
   /usr/local/include/gtest/gtest-assertion-result.h \
@@ -939,7 +940,6 @@ CMakeFiles/GameTests.dir/tests/GameTest.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/float.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/map \
   /usr/local/include/gtest/internal/gtest-filepath.h \
   /usr/local/include/gtest/internal/gtest-string.h \
   /usr/local/include/gtest/internal/gtest-type-util.h \

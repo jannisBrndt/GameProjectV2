@@ -1,10 +1,10 @@
-Start testing: Nov 21 16:51 CET
+Start testing: Nov 25 13:10 CET
 ----------------------------------------------------------
 1/1 Testing: AllTests
 1/1 Test: AllTests
 Command: "/Users/jannis/Desktop/GameProjectV2/build/GameTests"
 Directory: /Users/jannis/Desktop/GameProjectV2/build
-"AllTests" start time: Nov 21 16:51 CET
+"AllTests" start time: Nov 25 13:10 CET
 Output:
 ----------------------------------------------------------
 Running main() from /tmp/googletest-20240731-4829-u2xmsk/googletest-1.15.2/googletest/src/gtest_main.cc
@@ -14,8 +14,7 @@ Running main() from /tmp/googletest-20240731-4829-u2xmsk/googletest-1.15.2/googl
 [ RUN      ] CharacterCreationStateTest.RenderOutput
 [       OK ] CharacterCreationStateTest.RenderOutput (0 ms)
 [ RUN      ] CharacterCreationStateTest.HandleValidInput
-[CharacterCreationState] Unexpected numeric input.
-/Users/jannis/Desktop/GameProjectV2/tests/CharacterCreationStateTest.cpp:34: Failure
+/Users/jannis/Desktop/GameProjectV2/tests/CharacterCreationStateTest.cpp:35: Failure
 Expected: (character) != (nullptr), actual: (nullptr) vs (nullptr)
 
 [  FAILED  ] CharacterCreationStateTest.HandleValidInput (0 ms)
@@ -53,13 +52,11 @@ Expected: (character) != (nullptr), actual: (nullptr) vs (nullptr)
 [ RUN      ] GameTest.ParseValidInput
 [State Manager] No current state to exit.
 [State Manager] Transitioned to new state: 13MainMenuState
-[Game] Raw input received: 1
 [Game] Input parsed as int: 1
 [       OK ] GameTest.ParseValidInput (0 ms)
 [ RUN      ] GameTest.ParseInvalidInput
 [State Manager] No current state to exit.
 [State Manager] Transitioned to new state: 13MainMenuState
-[Game] Raw input received: test
 [Game] Input parsed as string: test
 [       OK ] GameTest.ParseInvalidInput (0 ms)
 [----------] 2 tests from GameTest (0 ms total)
@@ -110,11 +107,11 @@ Exit state detected.
 
  1 FAILED TEST
 <end of output>
-Test time =   0.32 sec
+Test time =   0.34 sec
 ----------------------------------------------------------
 Test Failed.
-"AllTests" end time: Nov 21 16:51 CET
+"AllTests" end time: Nov 25 13:10 CET
 "AllTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 21 16:51 CET
+End testing: Nov 25 13:10 CET

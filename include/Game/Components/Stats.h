@@ -99,4 +99,11 @@ class Stats {
 		 * @param amount The new armor value.
 		 */
 		void setArmor(int amount);
+
+
+		void increaseMaxHealth(int amount);
+
+		void increaseAttackDamage(int amount);
+
+		void increaseArmor(int amount);
 };

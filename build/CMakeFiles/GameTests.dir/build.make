@@ -279,10 +279,38 @@ CMakeFiles/GameTests.dir/src/Game/States/CharacterCreationState.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTests.dir/src/Game/States/CharacterCreationState.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterCreationState.cpp -o CMakeFiles/GameTests.dir/src/Game/States/CharacterCreationState.cpp.s
 
+CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o: CMakeFiles/GameTests.dir/flags.make
+CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o: /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterLoadingState.cpp
+CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o: CMakeFiles/GameTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o -MF CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o.d -o CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o -c /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterLoadingState.cpp
+
+CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterLoadingState.cpp > CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.i
+
+CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterLoadingState.cpp -o CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.s
+
+CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o: CMakeFiles/GameTests.dir/flags.make
+CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o: /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterMenuState.cpp
+CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o: CMakeFiles/GameTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o -MF CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o.d -o CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o -c /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterMenuState.cpp
+
+CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterMenuState.cpp > CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.i
+
+CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jannis/Desktop/GameProjectV2/src/Game/States/CharacterMenuState.cpp -o CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.s
+
 CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o: CMakeFiles/GameTests.dir/flags.make
 CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o: /Users/jannis/Desktop/GameProjectV2/src/Game/States/ExitState.cpp
 CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o: CMakeFiles/GameTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o -MF CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o.d -o CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o -c /Users/jannis/Desktop/GameProjectV2/src/Game/States/ExitState.cpp
 
 CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.i: cmake_force
@@ -293,10 +321,24 @@ CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jannis/Desktop/GameProjectV2/src/Game/States/ExitState.cpp -o CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.s
 
+CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o: CMakeFiles/GameTests.dir/flags.make
+CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o: /Users/jannis/Desktop/GameProjectV2/src/Game/States/InGameState.cpp
+CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o: CMakeFiles/GameTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o -MF CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o.d -o CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o -c /Users/jannis/Desktop/GameProjectV2/src/Game/States/InGameState.cpp
+
+CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jannis/Desktop/GameProjectV2/src/Game/States/InGameState.cpp > CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.i
+
+CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jannis/Desktop/GameProjectV2/src/Game/States/InGameState.cpp -o CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.s
+
 CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o: CMakeFiles/GameTests.dir/flags.make
 CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o: /Users/jannis/Desktop/GameProjectV2/src/Game/States/MainMenuState.cpp
 CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o: CMakeFiles/GameTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o -MF CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o.d -o CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o -c /Users/jannis/Desktop/GameProjectV2/src/Game/States/MainMenuState.cpp
 
 CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.i: cmake_force
@@ -310,7 +352,7 @@ CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.s: cmake_force
 CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o: CMakeFiles/GameTests.dir/flags.make
 CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o: /Users/jannis/Desktop/GameProjectV2/src/Game/States/State.cpp
 CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o: CMakeFiles/GameTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o -MF CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o.d -o CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o -c /Users/jannis/Desktop/GameProjectV2/src/Game/States/State.cpp
 
 CMakeFiles/GameTests.dir/src/Game/States/State.cpp.i: cmake_force
@@ -338,7 +380,10 @@ GameTests_OBJECTS = \
 "CMakeFiles/GameTests.dir/src/Game/Managers/CharacterManager.cpp.o" \
 "CMakeFiles/GameTests.dir/src/Game/Managers/StateManager.cpp.o" \
 "CMakeFiles/GameTests.dir/src/Game/States/CharacterCreationState.cpp.o" \
+"CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o" \
+"CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o" \
 "CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o" \
+"CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o" \
 "CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o" \
 "CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o"
 
@@ -360,12 +405,15 @@ GameTests: CMakeFiles/GameTests.dir/src/Game/Entities/Character.cpp.o
 GameTests: CMakeFiles/GameTests.dir/src/Game/Managers/CharacterManager.cpp.o
 GameTests: CMakeFiles/GameTests.dir/src/Game/Managers/StateManager.cpp.o
 GameTests: CMakeFiles/GameTests.dir/src/Game/States/CharacterCreationState.cpp.o
+GameTests: CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o
+GameTests: CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o
 GameTests: CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.o
+GameTests: CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o
 GameTests: CMakeFiles/GameTests.dir/src/Game/States/MainMenuState.cpp.o
 GameTests: CMakeFiles/GameTests.dir/src/Game/States/State.cpp.o
 GameTests: CMakeFiles/GameTests.dir/build.make
 GameTests: CMakeFiles/GameTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable GameTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jannis/Desktop/GameProjectV2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable GameTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

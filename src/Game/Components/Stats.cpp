@@ -35,3 +35,15 @@ void Stats::setAttackDamage(int amount) {
 void Stats::setArmor(int amount) {
 	this->armor = amount;
 }
+
+void Stats::increaseMaxHealth(int amount) {
+	this->maxHealth += amount;
+}
+
+void Stats::increaseAttackDamage(int amount) {
+	this->attackDamage += amount;
+}
+
+void Stats::increaseArmor(int amount) {
+	this->armor += amount;
+}

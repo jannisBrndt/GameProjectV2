@@ -17,6 +17,12 @@ class Character {
 		std::string name; 	// The name of the character.
 		std::string race; 	// The race of the character (currently not limitated).
 		Stats stats;		// The stats (health, attack, armor, (more follows)) of a character.
+
+		int level = 0;
+		int experience = 0;
+		static const int experienceToNextLevel = 100;
+
+		void levelUp();
 	public:
 		
 		/*
@@ -81,4 +87,10 @@ class Character {
 		 * @param race The new race of the character.
 		 */
 		void setRace(const std::string& race);
+
+
+		int getLevel() const;
+		int getExperience() const;
+
+		void gainExperience(int amount);
 };

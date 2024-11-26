@@ -72,11 +72,15 @@ State::InputType Game::getInputFromPlayer() {
 		return "";
 	}
 
-	std::cout << "[Game] Raw input received: " << inputString << "\n";
-
 	// Trim leading/trailing spaces
 	inputString.erase(0, inputString.find_first_not_of(' '));
 	inputString.erase(inputString.find_last_not_of(' ') + 1);
+
+	// Flush if input is empty
+	if (inputString.empty()) {
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		return ""; // return empty string to signal retry
+	}
 
 	// check if the input is numeric
 	if (!inputString.empty() && std::all_of(inputString.begin(), inputString.end(), ::isdigit)) {

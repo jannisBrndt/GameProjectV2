@@ -314,6 +314,60 @@ src/Game/States/CharacterCreationState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/CharacterCreationState.cpp.s
 .PHONY : src/Game/States/CharacterCreationState.cpp.s
 
+src/Game/States/CharacterLoadingState.o: src/Game/States/CharacterLoadingState.cpp.o
+.PHONY : src/Game/States/CharacterLoadingState.o
+
+# target to build an object file
+src/Game/States/CharacterLoadingState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/CharacterLoadingState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.o
+.PHONY : src/Game/States/CharacterLoadingState.cpp.o
+
+src/Game/States/CharacterLoadingState.i: src/Game/States/CharacterLoadingState.cpp.i
+.PHONY : src/Game/States/CharacterLoadingState.i
+
+# target to preprocess a source file
+src/Game/States/CharacterLoadingState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/CharacterLoadingState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.i
+.PHONY : src/Game/States/CharacterLoadingState.cpp.i
+
+src/Game/States/CharacterLoadingState.s: src/Game/States/CharacterLoadingState.cpp.s
+.PHONY : src/Game/States/CharacterLoadingState.s
+
+# target to generate assembly for a file
+src/Game/States/CharacterLoadingState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/CharacterLoadingState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/CharacterLoadingState.cpp.s
+.PHONY : src/Game/States/CharacterLoadingState.cpp.s
+
+src/Game/States/CharacterMenuState.o: src/Game/States/CharacterMenuState.cpp.o
+.PHONY : src/Game/States/CharacterMenuState.o
+
+# target to build an object file
+src/Game/States/CharacterMenuState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/CharacterMenuState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.o
+.PHONY : src/Game/States/CharacterMenuState.cpp.o
+
+src/Game/States/CharacterMenuState.i: src/Game/States/CharacterMenuState.cpp.i
+.PHONY : src/Game/States/CharacterMenuState.i
+
+# target to preprocess a source file
+src/Game/States/CharacterMenuState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/CharacterMenuState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.i
+.PHONY : src/Game/States/CharacterMenuState.cpp.i
+
+src/Game/States/CharacterMenuState.s: src/Game/States/CharacterMenuState.cpp.s
+.PHONY : src/Game/States/CharacterMenuState.s
+
+# target to generate assembly for a file
+src/Game/States/CharacterMenuState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/CharacterMenuState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/CharacterMenuState.cpp.s
+.PHONY : src/Game/States/CharacterMenuState.cpp.s
+
 src/Game/States/ExitState.o: src/Game/States/ExitState.cpp.o
 .PHONY : src/Game/States/ExitState.o
 
@@ -340,6 +394,33 @@ src/Game/States/ExitState.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/ExitState.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/ExitState.cpp.s
 .PHONY : src/Game/States/ExitState.cpp.s
+
+src/Game/States/InGameState.o: src/Game/States/InGameState.cpp.o
+.PHONY : src/Game/States/InGameState.o
+
+# target to build an object file
+src/Game/States/InGameState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/InGameState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.o
+.PHONY : src/Game/States/InGameState.cpp.o
+
+src/Game/States/InGameState.i: src/Game/States/InGameState.cpp.i
+.PHONY : src/Game/States/InGameState.i
+
+# target to preprocess a source file
+src/Game/States/InGameState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/InGameState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.i
+.PHONY : src/Game/States/InGameState.cpp.i
+
+src/Game/States/InGameState.s: src/Game/States/InGameState.cpp.s
+.PHONY : src/Game/States/InGameState.s
+
+# target to generate assembly for a file
+src/Game/States/InGameState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/Game/States/InGameState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTests.dir/build.make CMakeFiles/GameTests.dir/src/Game/States/InGameState.cpp.s
+.PHONY : src/Game/States/InGameState.cpp.s
 
 src/Game/States/MainMenuState.o: src/Game/States/MainMenuState.cpp.o
 .PHONY : src/Game/States/MainMenuState.o
@@ -664,9 +745,18 @@ help:
 	@echo "... src/Game/States/CharacterCreationState.o"
 	@echo "... src/Game/States/CharacterCreationState.i"
 	@echo "... src/Game/States/CharacterCreationState.s"
+	@echo "... src/Game/States/CharacterLoadingState.o"
+	@echo "... src/Game/States/CharacterLoadingState.i"
+	@echo "... src/Game/States/CharacterLoadingState.s"
+	@echo "... src/Game/States/CharacterMenuState.o"
+	@echo "... src/Game/States/CharacterMenuState.i"
+	@echo "... src/Game/States/CharacterMenuState.s"
 	@echo "... src/Game/States/ExitState.o"
 	@echo "... src/Game/States/ExitState.i"
 	@echo "... src/Game/States/ExitState.s"
+	@echo "... src/Game/States/InGameState.o"
+	@echo "... src/Game/States/InGameState.i"
+	@echo "... src/Game/States/InGameState.s"
 	@echo "... src/Game/States/MainMenuState.o"
 	@echo "... src/Game/States/MainMenuState.i"
 	@echo "... src/Game/States/MainMenuState.s"
